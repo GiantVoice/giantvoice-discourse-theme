@@ -366,6 +366,62 @@ body.archetype-regular .gv-community-pulse {
   padding: 0.12rem 0.45rem;
 }
 
+.discourse-tag[href$="/tag/official"],
+.discourse-tag[data-tag-name="official"] {
+  background: var(--gv-accent-soft);
+  color: var(--gv-accent-hover);
+}
+
+.discourse-tag[href$="/tag/policy"],
+.discourse-tag[href$="/tag/afi"],
+.discourse-tag[href$="/tag/dafman"],
+.discourse-tag[data-tag-name="policy"],
+.discourse-tag[data-tag-name="afi"],
+.discourse-tag[data-tag-name="dafman"] {
+  background: #eef2f7;
+  color: #334155;
+}
+
+.discourse-tag[href$="/tag/source-needed"],
+.discourse-tag[data-tag-name="source-needed"] {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.discourse-tag[href$="/tag/1206"],
+.discourse-tag[href$="/tag/epb"],
+.discourse-tag[href$="/tag/opb"],
+.discourse-tag[href$="/tag/mfr"],
+.discourse-tag[href$="/tag/awards"],
+.discourse-tag[data-tag-name="1206"],
+.discourse-tag[data-tag-name="epb"],
+.discourse-tag[data-tag-name="opb"],
+.discourse-tag[data-tag-name="mfr"],
+.discourse-tag[data-tag-name="awards"] {
+  background: #ede9fe;
+  color: #5b21b6;
+}
+
+.discourse-tag[href$="/tag/pcs"],
+.discourse-tag[href$="/tag/base-life"],
+.discourse-tag[href$="/tag/housing"],
+.discourse-tag[data-tag-name="pcs"],
+.discourse-tag[data-tag-name="base-life"],
+.discourse-tag[data-tag-name="housing"] {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.discourse-tag[href$="/tag/volunteer"],
+.discourse-tag[href$="/tag/ceremony"],
+.discourse-tag[href$="/tag/air-force-ball"],
+.discourse-tag[data-tag-name="volunteer"],
+.discourse-tag[data-tag-name="ceremony"],
+.discourse-tag[data-tag-name="air-force-ball"] {
+  background: #ffe4e6;
+  color: #9f1239;
+}
+
 .topic-excerpt,
 .topic-list .topic-excerpt {
   color: var(--gv-text-muted);
