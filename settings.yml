@@ -6,11 +6,11 @@ home_url:
   default: "https://giantvoice.org/"
   description:
     en: GiantVoice home URL.
-statements_url:
-  default: "https://giantvoice.org/performance-statements/"
+apps_url:
+  default: "https://giantvoice.org/#apps"
   description:
-    en: Performance Statement Repository URL.
+    en: GiantVoice apps section URL.
 resources_url:
-  default: "https://giantvoice.org/military-glossary/"
+  default: "https://giantvoice.org/#resources"
   description:
-    en: GiantVoice resources URL.
+    en: GiantVoice resources section URL.
