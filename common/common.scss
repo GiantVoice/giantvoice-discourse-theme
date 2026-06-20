@@ -415,6 +415,74 @@ body.archetype-regular .gv-community-hero {
   background: var(--gv-accent);
 }
 
+.topic-meta-data .names span.founding_members a,
+.topic-meta-data .names span.group-founding_members a,
+.topic-meta-data .names a.founding_members,
+.topic-meta-data .names a.group-founding_members {
+  color: var(--gv-accent);
+  font-weight: 760;
+}
+
+.topic-meta-data .names span.trusted_contributors a,
+.topic-meta-data .names span.group-trusted_contributors a,
+.topic-meta-data .names a.trusted_contributors,
+.topic-meta-data .names a.group-trusted_contributors {
+  color: #047857;
+  font-weight: 720;
+}
+
+.topic-meta-data .names span.writing_mentors a,
+.topic-meta-data .names span.group-writing_mentors a,
+.topic-meta-data .names a.writing_mentors,
+.topic-meta-data .names a.group-writing_mentors {
+  color: #4f46e5;
+  font-weight: 720;
+}
+
+.topic-meta-data .names span.policy_sources a,
+.topic-meta-data .names span.group-policy_sources a,
+.topic-meta-data .names a.policy_sources,
+.topic-meta-data .names a.group-policy_sources {
+  color: #334155;
+  font-weight: 720;
+}
+
+.topic-meta-data .names span.base_guides a,
+.topic-meta-data .names span.group-base_guides a,
+.topic-meta-data .names a.base_guides,
+.topic-meta-data .names a.group-base_guides {
+  color: #0369a1;
+  font-weight: 720;
+}
+
+.topic-meta-data .names span.news_scouts a,
+.topic-meta-data .names span.group-news_scouts a,
+.topic-meta-data .names a.news_scouts,
+.topic-meta-data .names a.group-news_scouts {
+  color: #7c3aed;
+  font-weight: 720;
+}
+
+.topic-meta-data .names span.resource_librarians a,
+.topic-meta-data .names span.group-resource_librarians a,
+.topic-meta-data .names a.resource_librarians,
+.topic-meta-data .names a.group-resource_librarians {
+  color: #b45309;
+  font-weight: 720;
+}
+
+.topic-meta-data .names span.event_organizers a,
+.topic-meta-data .names span.group-event_organizers a,
+.topic-meta-data .names a.event_organizers,
+.topic-meta-data .names a.group-event_organizers {
+  color: #be123c;
+  font-weight: 720;
+}
+
+.user-badge {
+  border-radius: 999px;
+}
+
 @media (max-width: 700px) {
   .gv-community-strip {
     align-items: flex-start;
