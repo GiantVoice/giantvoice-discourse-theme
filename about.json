@@ -1,0 +1,29 @@
+{
+  "name": "GiantVoice Community",
+  "component": false,
+  "license_url": "https://github.com/GiantVoice/giantvoice-discourse-theme/blob/main/LICENSE",
+  "about_url": "https://github.com/GiantVoice/giantvoice-discourse-theme",
+  "authors": "GiantVoice",
+  "theme_version": "0.1.0",
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+    "giantvoice-logo": "assets/giantvoice-logo.svg"
+  },
+  "color_schemes": {
+    "GiantVoice Calm": {
+      "primary": "0f172a",
+      "secondary": "f4f7fb",
+      "tertiary": "0b6fb3",
+      "quaternary": "334155",
+      "header_background": "ffffff",
+      "header_primary": "0f172a",
+      "highlight": "e7f2fb",
+      "danger": "b42318",
+      "success": "047857",
+      "love": "0b6fb3",
+      "selected": "eef3f8",
+      "hover": "f8fafc"
+    }
+  }
+}

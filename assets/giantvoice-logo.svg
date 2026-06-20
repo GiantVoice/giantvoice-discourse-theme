@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" role="img" aria-label="GiantVoice">
+  <rect width="40" height="40" rx="10" fill="#e7f2fb"/>
+  <path fill="#0b6fb3" d="M9 23h5l9 7V10l-9 7H9z"/>
+  <path fill="none" stroke="#0b6fb3" stroke-width="3" stroke-linecap="round" d="M27 16.5c1.5 1.7 1.5 5.3 0 7"/>
+  <path fill="none" stroke="#0b6fb3" stroke-width="3" stroke-linecap="round" d="M31 12.5c3.4 4.2 3.4 10.8 0 15"/>
+</svg>

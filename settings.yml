@@ -1,0 +1,16 @@
+show_giantvoice_bar:
+  default: true
+  description:
+    en: Show the GiantVoice community navigation strip above Discourse.
+home_url:
+  default: "https://giantvoice.org/"
+  description:
+    en: GiantVoice home URL.
+statements_url:
+  default: "https://giantvoice.org/performance-statements/"
+  description:
+    en: Performance Statement Repository URL.
+resources_url:
+  default: "https://giantvoice.org/military-glossary/"
+  description:
+    en: GiantVoice resources URL.
