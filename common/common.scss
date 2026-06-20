@@ -151,6 +151,10 @@ body.archetype-regular .gv-community-hero {
   display: none;
 }
 
+body.archetype-regular .gv-community-pulse {
+  display: none;
+}
+
 .gv-community-hero-copy {
   display: grid;
   align-content: center;
@@ -234,6 +238,50 @@ body.archetype-regular .gv-community-hero {
 .gv-action-card-primary:hover,
 .gv-action-card-primary:focus {
   color: #ffffff;
+}
+
+.gv-community-pulse {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.7rem;
+  max-width: 1180px;
+  margin: 0.85rem auto 0;
+}
+
+.gv-community-pulse a {
+  display: grid;
+  gap: 0.25rem;
+  min-width: 0;
+  padding: 0.85rem 0.9rem;
+  border: 1px solid var(--gv-border-soft);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.045);
+  color: var(--gv-text-soft);
+  text-decoration: none;
+  transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease;
+}
+
+.gv-community-pulse a:hover,
+.gv-community-pulse a:focus {
+  border-color: color-mix(in srgb, var(--gv-accent) 30%, var(--gv-border));
+  box-shadow: var(--gv-shadow-card);
+  transform: translateY(-1px);
+}
+
+.gv-community-pulse span {
+  color: var(--gv-accent);
+  font-size: 0.72rem;
+  font-weight: 820;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.gv-community-pulse strong {
+  color: var(--gv-text-soft);
+  font-size: 0.86rem;
+  font-weight: 650;
+  line-height: 1.42;
 }
 
 #main-outlet {
@@ -519,6 +567,11 @@ body.archetype-regular .gv-community-hero {
   .gv-community-hero p {
     font-size: 0.93rem;
     line-height: 1.6;
+  }
+
+  .gv-community-pulse {
+    grid-template-columns: 1fr;
+    margin: 0.75rem 0.75rem 0;
   }
 
   #main-outlet {
