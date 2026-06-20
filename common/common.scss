@@ -197,6 +197,27 @@ body {
   background: var(--gv-accent-hover);
 }
 
+.btn-social.oidc {
+  border-color: var(--gv-border);
+  background: var(--gv-accent);
+  color: #ffffff;
+}
+
+.btn-social.oidc:hover,
+.btn-social.oidc:focus {
+  background: var(--gv-accent-hover);
+  color: #ffffff;
+}
+
+.btn-social.oidc .btn-social-title {
+  font-size: 0;
+}
+
+.btn-social.oidc .btn-social-title::after {
+  content: "Sign in with GiantVoice";
+  font-size: 1rem;
+}
+
 .topic-post,
 .topic-avatar,
 .topic-body {
